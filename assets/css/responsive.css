@@ -1,0 +1,62 @@
+/* PC */
+@media (min-width:1024px) {
+.contact-container .contact-infor{
+    float:right;
+    }
+}
+/* TABLET */
+@media(min-width:740px) and (max-width:1023px) {
+.contact-container .contact-infor{
+     float:right;
+}
+}
+/* MOBILE */
+@media(max-width:739px) {
+#na li{
+    display:block;
+}
+#header{
+    overflow:hidden;
+}
+#search-btn .btn {
+    display:none;
+}
+#menu-btn .menu{
+    display:inline-block;
+}
+#slider .content-slider{
+    display:none;
+}
+#content .content-dif #about .nd{
+    margin:15px 0;
+}
+#content #team-selection .doi-tuong{
+    display:inline-block;
+    width:100%;
+}
+#content ul{
+    padding:0px;
+}
+#content .ba{
+    margin-top:1px;
+}
+#content .cột{
+    width:100%;
+    margin:0 0 15px 0;
+}
+.contact-container .address{
+    display:block;
+    width:100%;
+    margin-bottom:8px;
+}
+.contact-container .contact-infor{
+    width:100%;
+}
+.contact-container #email{
+    margin-left:0;
+}
+.contact-infor input{
+    width:100%;
+    margin-top:8px;
+}
+}
